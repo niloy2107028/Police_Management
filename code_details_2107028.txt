@@ -1,0 +1,76 @@
+As the main attraction of my program is the police management system, I have implemented a password system to ensure that only authorized police officers can access it. The program provides various operations that allow police officers to efficiently manage their tasks, such as registering FIRs, managing police officers, registering criminals, and solving FIRs through a "tribunal" process. By utilizing a set of classes and functions, the program effectively interacts with the police department's data, including FIR details, police officer information, and criminal records.
+
+
+In my program, there are several operations available for police officers. However, before accessing these operations, a police officer must enter a specific password for authentication. This password-protected feature ensures secure access to the functionalities and allows authorized personnel to perform their tasks efficiently.
+The operations that can be performed include:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+
+
+
+The program utilizes five classes to organize its functionalities:
+
+1.Police
+2.Criminal
+3.FIR
+4.Court
+5.PoliceManagement
+
+In the PoliceManagement class, I have declared all the fundamental functions that are necessary for successfully performing the operations. The class also includes the required arrays for each class, ensuring proper data management.
+
+The fundamental functions that ensure the successful execution of operations include:
+
+1.fir_reg()
+2.display_all_pending_fires()
+3.display_all_solved_fires()
+4.tribunal(int firid)
+5.police_reg()
+6.display_all_police_officers()
+7.criminal_reg()
+8.display_all_criminals()
+9.search_police(int p_id)
+10.search_criminal(int cr_id)
+11.search_fir(int fr_id)
+ 
+
+The main function of the program begins with a password system to authenticate police officers before granting access to the main program. Upon successful login, the program utilizes switch cases to allow users to select and perform specific operations based on their preferences. After each operation, the program clears the console using "system("cls")" to provide a clean interface for subsequent actions.
+
+Attention*:
+
+The most intriguing feature of my program is its ability to solve FIRs based on the number of witnesses. By comparing the number of witnesses for the victim and the suspect, the program decides whether the suspect is a criminal or not.The program's ability to resolve FIRs based on the number of witnesses adds a practical dimension, making it more functional and authentic to real-world scenarios.
+
+
+In conclusion, I would like to welcome any suggestions or recommendations for enhancing the code's functionality. Your valuable insights are deeply appreciated, and I am open to considering any updates that could further improve the efficiency and effectiveness of the police management system.
+I want to express my gratitude for your attention to this program. Please feel free to inquire about any aspects of the program.
+
+Best regards,
+Sohaib Hasan Niloy
+Email: shoaibhasan600@gmail.com
+
+
+
+
+ 

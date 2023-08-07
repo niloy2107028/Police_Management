@@ -1,0 +1,589 @@
+THIS IS THE OUTPUT FILE OF MY ASSIGNMENT
+
+NAME:SOHAIB HASAN NILOY
+ROLL:2107028
+DEPT:CSE
+YEAR:1ST
+
+
+
+PS E:\cpp practice and notes\pratice codes cpp\practice> cd "e:\cpp practice and notes\pratice codes cpp\practice\" ; if ($?) { g++ final_assignment_done.cpp -o final_assignment_done } ; if ($?) { .\final_assignment_done }
+
+------WELCOME TO THE POLICE SYSTEM------
+
+ENTER THE PASSWORD FOR LOGIN (PASSWORD:2107028_niloy): 2107028_niloy
+
+------------LOGIN SUCCESSFUL-------------
+
+YOU CAN PERFORM THE FOLLOWING OPERATION
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 1
+
+Enter a fir number: 123
+
+Enter fir type: murder
+
+Enter fir date_time: 06/08/2023
+
+Enter fir location: KUET
+
+Enter fir victim's name: mahim
+
+Enter fir status: unsolved
+
+Enter police badge no: 2107028
+
+Enter police name: niloy
+
+Enter police current status: 1
+
+Enter number of witnesses under victim: 5
+
+Enter suspect's name: azfar
+
+Entry successful.
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 2
+
+Pending fires list:
+
+------------------------
+
+Fir number: 123
+
+Fir type: murder
+
+Fir occurring date and time: 06/08/2023
+
+Fir location: KUET
+
+Fir victim: mahim
+
+Fir current status: unsolved
+
+Police badge no: 2107028
+
+Police name: niloy
+
+Police current status: 1
+
+------------------------
+
+Number of witnesses under victim: 5
+
+Suspect's name: azfar
+
+Fir result:
+
+--------------------------------
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 3
+
+Solved fires list:
+
+------------------------
+
+No solved fires
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 4
+
+Enter the fir id of the unsolved fir: 123
+
+Enter no of witnesses under suspect: 4
+
+azfar is a criminal
+
+Enter criminal badge no: 2107101
+
+Enter criminal age: 21
+
+Criminal badge no: 2107101
+
+Criminal fir no: 123
+
+Criminal name: azfar
+
+Criminal age: 21
+
+Criminal offense: murder
+
+------------------------
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 5
+
+How many police officers you want to register: 1
+
+Enter police 1 details:
+
+Enter police badge no: 2107059
+
+Enter police name: tahmid
+
+Enter police current status: 1
+
+Entry successful.
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 6
+
+Displaying all police officers:
+------------------------
+
+Police 1 details:
+
+Police badge no: 2107059
+
+Police name: tahmid
+
+Police current status: 1
+
+------------------------
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 7
+
+How many criminals you want to register: 1
+
+Enter criminal 1 details:
+
+Enter criminal badge no: 2107031
+
+Enter criminal fir no: 31
+
+Enter criminal name: adiba
+
+Enter criminal age: 21
+
+Enter criminal offense: theft
+
+Entry successful.
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 8
+
+Displaying all criminals:
+
+------------------------
+
+Criminal 1 :
+
+Criminal badge no: 2107101
+
+Criminal fir no: 123
+
+Criminal name: azfar
+
+Criminal age: 21
+
+Criminal offense: murder
+
+------------------------
+
+Criminal 2 :
+
+Criminal badge no: 2107031
+
+Criminal fir no: 31
+
+Criminal name: adiba
+
+Criminal age: 21
+
+Criminal offense: theft
+
+------------------------
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 9
+
+Enter a valid police badge no: 2107059
+
+Police badge no: 2107059
+
+Police name: tahmid
+
+Police current status: 1
+
+------------------------
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 10
+
+Enter a valid criminal badge no: 2107031
+
+Criminal badge no: 2107031
+
+Criminal fir no: 31
+
+Criminal name: adiba
+
+Criminal age: 21
+
+Criminal offense: theft
+
+------------------------
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice: 11
+
+Enter a valid fir no: 123
+
+Fir number: 123
+
+Fir type: murder
+
+Fir occurring date and time: 06/08/2023
+
+Fir location: KUET
+
+Fir victim: mahim
+
+Fir current status: solved
+
+Police badge no: 2107028
+
+Police name: niloy
+
+Police current status: 1
+
+------------------------
+
+Number of witnesses under victim: 5
+
+Suspect's name: azfar
+
+Fir result: suspect is a criminal
+
+--------------------------------
+
+Wanna continue? (y/n): y
+
+Choose one of the following:
+
+1. Register a FIR.
+
+2. Display all pending FIRs.
+
+3. Display all solved FIRs.
+
+4. Solve a FIR via Court.
+
+5. Register police officers.
+
+6. Display all police officers.
+
+7. Register criminals.
+
+8. Display all criminals.
+
+9. Search a police.
+
+10. Search a criminal.
+
+11. Search a FIR.
+
+12. Exit.
+
+Your choice:   12
+
+PS E:\cpp practice and notes\pratice codes cpp\practice>
